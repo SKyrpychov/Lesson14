@@ -1,0 +1,23 @@
+@import "variables";
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 30px;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+.information {
+    display: flex;
+}
+.language__list {
+    display: flex;
+}
+.contacts__list {
+    display: flex;
+}
+.navigation__list {
+    display: flex;
+}

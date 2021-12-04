@@ -1,0 +1,26 @@
+@import "reset";
+@import "fonts";
+@import "variables";
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $color-main-regular;
+}
+.container {
+    max-width: 1640px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.legal-wrap {
+    background-image: $color-gradient-supersoft;
+}
+.screen {
+    background-image: url(../images/background_symbol.svg);
+    background-size:  contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100vh;
+}
+@import "header";
